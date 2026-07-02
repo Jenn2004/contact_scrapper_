@@ -1,4 +1,4 @@
-import mysql.connector
+import mysql.connector # pyright: ignore[reportMissingImports]
 
 conn = mysql.connector.connect(
     host="localhost",
